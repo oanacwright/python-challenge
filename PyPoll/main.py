@@ -25,8 +25,7 @@ with open(csvpath) as csvfile:
         # increase by one the voter count and the numbers of votes associated with each candidate in the candidatesumvotes dictionary
         candidatesumvotes[candidate] += 1
         voters += 1
-    
-
+        
 # Print out results in the terminal. 
 # Printing of all unique candidates with the votes will be done here with a for loop.
 # Winning candidate is found by using the max function on dictionary (https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary)
